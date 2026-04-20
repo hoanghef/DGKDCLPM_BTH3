@@ -1,0 +1,33 @@
+===== KẾT QUẢ KIỂM THỬ - DỮ LIỆU HỢP LỆ =====
+
+1. Chu vi hình chữ nhật
+Input (5,3) -> 16
+Input (10,2) -> 24
+
+2. Diện tích hình chữ nhật
+Input (5,3) -> 15
+
+3. Phương trình bậc 2
+Input (1,2,1) -> Nghiệm kép: -1.0
+Input (1,0,-1) -> 2 nghiệm: 1.0, -1.0
+
+4. Số ngày trong tháng
+Input (2,2024) -> 29
+Input (4,2024) -> 30
+
+5. Số nguyên tố
+Input 7 -> True
+Input 11 -> True
+
+6. Tổng S = 1 - 2 + ... + n
+Input 5 -> 3
+
+7. UCLN
+Input (12,8) -> 4
+
+8. Tổng giai thừa
+Input 3 -> 9
+
+===== KẾT LUẬN =====
+- Tất cả test case hợp lệ đều cho kết quả chính xác
+- Chương trình hoạt động đúng với yêu cầu đề bài
