@@ -1,0 +1,21 @@
+===== JUNIT TEST RESULT - VALID CASES (BTH4) =====
+
+Test: chuVi(5,3) -> PASSED
+Test: dienTich(5,3) -> PASSED
+Test: ptBac2(1,2,1) -> PASSED (Nghiem kep)
+Test: soNgay(2,2024) -> PASSED (29 ngay)
+Test: isPrime(7) -> PASSED (True)
+Test: tong(5) -> PASSED (3)
+Test: ucln(12,8) -> PASSED (4)
+Test: tongGiaiThua(3) -> PASSED (9)
+
+-----------------------------------------
+SUMMARY:
+Total tests: 8
+Passed: 8
+Failed: 0
+
+KẾT LUẬN:
+- Tất cả test hợp lệ đều PASS
+- Các chức năng hoạt động đúng theo yêu cầu
+- Bao phủ các luồng xử lý chính
