@@ -46,4 +46,29 @@ public class MainTest {
         assertEquals(9, Main.tongGiaiThua(3));
     }
 
+    // ISSUE 2 - lỗi + biên
+    @Test
+    void testChuViError() {
+        assertThrows(IllegalArgumentException.class, () -> Main.chuVi(0,5));
+    }
+
+    @Test
+    void testPTError() {
+        assertThrows(IllegalArgumentException.class, () -> Main.ptBac2(0,2,1));
+    }
+
+    @Test
+    void testSoNgayError() {
+        assertThrows(IllegalArgumentException.class, () -> Main.soNgay(13,2024));
+    }
+
+    @Test
+    void testTongError() {
+        assertThrows(IllegalArgumentException.class, () -> Main.tong(0));
+    }
+
+    @Test
+    void testGiaiThuaError() {
+        assertThrows(IllegalArgumentException.class, () -> Main.tongGiaiThua(-1));
+    }
 }

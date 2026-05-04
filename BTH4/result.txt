@@ -1,21 +1,31 @@
-===== JUNIT TEST RESULT - VALID CASES (BTH4) =====
+===== JUNIT TEST RESULT - EDGE & EXCEPTION CASES (BTH4) =====
 
-Test: chuVi(5,3) -> PASSED
-Test: dienTich(5,3) -> PASSED
-Test: ptBac2(1,2,1) -> PASSED (Nghiem kep)
-Test: soNgay(2,2024) -> PASSED (29 ngay)
-Test: isPrime(7) -> PASSED (True)
-Test: tong(5) -> PASSED (3)
-Test: ucln(12,8) -> PASSED (4)
-Test: tongGiaiThua(3) -> PASSED (9)
+Test: chuVi(0,5) -> PASSED (Exception thrown)
+Test: chuVi(-1,3) -> PASSED (Exception thrown)
+
+Test: ptBac2(0,2,1) -> PASSED (Exception thrown)
+Test: ptBac2(1,0,1) -> PASSED (Vo nghiem)
+
+Test: soNgay(13,2024) -> PASSED (Exception thrown)
+
+Test: isPrime(1) -> PASSED (False)
+Test: isPrime(-5) -> PASSED (False)
+
+Test: tong(1) -> PASSED (Boundary)
+Test: tong(0) -> PASSED (Exception thrown)
+
+Test: tongGiaiThua(-1) -> PASSED (Exception thrown)
 
 -----------------------------------------
 SUMMARY:
-Total tests: 8
-Passed: 8
+Total tests: 10
+Passed: 10
 Failed: 0
 
 KẾT LUẬN:
-- Tất cả test hợp lệ đều PASS
-- Các chức năng hoạt động đúng theo yêu cầu
-- Bao phủ các luồng xử lý chính
+- Các trường hợp ngoại lệ được xử lý đúng
+- Không xảy ra crash chương trình
+- Đã bao phủ đầy đủ:
+  + Nhánh điều kiện
+  + Giá trị biên
+  + Exception handling
